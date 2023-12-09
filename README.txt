@@ -23,6 +23,7 @@ This Ethereum smart contract, TodoList, allows users to manage tasks on the Ethe
    ```javascript
    const contractAddress = "0xe542c52b69d34312e1f8999d6c95d07a20c89955";
    const contractABI = "0x062bd4faa2f45f2a2d42d508455db98c2137e044792373b0face807d04f7b886";
+   scroll-etherscan = "https://sepolia.etherscan.io/address/0xe542c52b69d34312e1f8999d6c95d07a20c89955";
 
    const web3 = new Web3 = "Alchemy";
    const contract = new web3.eth.Contract(contractABI, contractAddress);
